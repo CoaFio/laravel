@@ -3,7 +3,7 @@
 @section('content')
     <div class="col-md-8 blog-main">
         <div class="blog-post"> 
-            <a href="posts/{{$post->id}}">
+            <a href="{{$post->id}}">
                 <h2 class="blog-post-title">{{ $post->title }}</h2>
             </a>
 
